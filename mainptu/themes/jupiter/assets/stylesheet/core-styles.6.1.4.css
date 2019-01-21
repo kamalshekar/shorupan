@@ -5118,7 +5118,7 @@ body:not(.mk-boxed-enabled).dashboard-opened .sticky-style-fixed.header-style-1 
   line-height: 80px;
 }
 .main-navigation-ul,
-.main-navigation-ul ul.sub-menu,
+.main-navigation-ul ul.,
 .main-navigation-ul li.menu-item {
   margin: 0;
   padding: 0;
@@ -5830,7 +5830,7 @@ body.rtl .has-mega-menu > ul.sub-menu > li > ul.sub-menu li.menu-item a.menu-ite
   vertical-align: middle;
 }
 .menu-hover-style-4.mk-vm-menuwrapper li.mk-vm-back:hover::before {
-  color: #ffffff;
+  color: red;
 }
 .mk-vm-menuwrapper .mk-vm-menu {
   margin: 0;
